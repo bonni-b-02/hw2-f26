@@ -1,0 +1,103 @@
+
+body {
+	background-color:#000000;
+	font-family: Arial, Verdana;
+	color: #FFFFFF;
+	margin: 20px 20px 0px 2px;
+}
+
+h1 {
+	font-size: 42px;
+	padding: 15px;
+}
+
+h2 {
+	color:#0D0D0D;
+	font-size: 30px;
+}
+
+p {
+	padding-top: 10px;
+	padding-left: 10px
+}
+
+img {
+	margin-left: auto;
+	margin-left: auto;
+	width: 250px;
+	border: 10px dashed #FFFFFF; 
+}
+
+div {
+	min-height: 125px; /*reference: http://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/min-height*/
+	height: auto; 
+	padding: 20px 20 20 20px;
+	border-color: 3px #FFFFFF solid white;
+}
+
+.introduction {
+	border-radius: 15px;
+	margin-top: 15px;
+	line-height: 2;
+}
+
+.red {
+	background-color: #ff0000;
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 2px solid white;
+	border-left: 5px solid white;
+}
+
+
+.blue {
+	background-color:#0000ff;
+	text-align:left;
+	margin-right: 50px;
+	border-right: 5px solid white;
+	border-top: 2px solid white;
+/*
+Use #C4C4C4 for the heading and paragraph text
+*/
+}
+
+.blue p, h1{
+	color: #C4C4C4;
+}
+.yellow {
+	background-color: #ffff00;
+	text-align: right;
+	margin-left: 50px;
+	border-bottom: 2px solid white;
+	border-left: 5px solid white;
+/*
+Use #707070 for the heading and paragraph text
+*/
+	}
+
+.yellow p, h1{
+	color: #707070
+}
+.green {
+	background-color: #008500;
+	text-align: left;
+	margin-right: 5px;
+	margin-top: 2px;
+
+		}
+
+footer {	
+background: #2A7B9B;
+background: linear-gradient
+(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%,
+ rgba(237, 221, 83, 1) 100%);
+}
+
+footer p {
+	font-size: 20px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
